@@ -12,7 +12,6 @@ class School
     roster.each do |grade, students| 
       sorted[grade] = students.sort  Value is the students sorted in ABC order
     end
-    sorted #the new sorted roster.
+    sorted 
   end
-end
 end
