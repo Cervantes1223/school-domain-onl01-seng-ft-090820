@@ -1,6 +1,6 @@
 class School
-   roster[grade] ||= [] #part 2b ||= means if roster[grade] has a value, leave it alone and dont't change the value, other wise, set roster[grade] to y.
-    roster[grade] << student_name #part 2c
+   roster[grade] ||= [] 
+    roster[grade] << student_name 
   end
 
   def grade(student_grade) #part 3
